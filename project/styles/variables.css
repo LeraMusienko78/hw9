@@ -3,18 +3,20 @@
     /* * Color-text */
 
     --primary-color :white ;
-    --secondarн-color: black;
+    --secondary-color: black;
     --additional-color: blue;
     --spare-color: pink;
 
     /* * Background */
 
     --primary-bg :antiquewhite ;
-    --secondarн-bg:linear-gradient (pink,rgb(239, 82, 82));
+    --secondary-bg:linear-gradient (pink violet);
     --additional-bg: gray;
-    --spare-bg: pink;
+    --spare-bg: rgb(25, 116, 162);
 
     /* * font-family-size */
+    --primary-font-family: 'Lato', sans-serif;
+    --secondary-font-family: 'Roboto', sans-serif;
 
     
 
@@ -22,8 +24,8 @@
 
     --font-size-size-xl: 3rem ;
     --font-size-size-l : 2rem;
-    --font-size-size-m : 1rem;
-    --font-size-size-s : .7rem;
+    --font-size-size-m : 1.2rem;
+    --font-size-size-s : 1rem;
 
     /* * margins */
 

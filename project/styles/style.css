@@ -1,4 +1,6 @@
-* {
+@import "./variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
+*{
     padding : 0;
     margin : 0;
     box-sizing : border-box;
@@ -13,4 +15,142 @@ li {
     list-style-type : none ;
     background:linear-gradient();
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background:var(--spare-bg);
+    padding: var(--padding-size-s);
+}
+
+.img__logo{
+    width: 5rem;
+    border-radius: 50%;
+    border: 2px solid var(--additional-color);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-size-l);
+    color: var(--additional-color);
+    font-family: var(--primary-font-family);
+}
+
+
+.logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-size-s);
+}
+
+.input-wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+    
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    background: inherit;
+    color: var(--additional-bg);
+}
+ .input:hover{
+    background: rgb(27, 124, 197);
+ }
+
+
+   
+   
+
+.nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    background:var( --primary-bg) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-products{
+    display: flex;
+    padding: var(--padding-size-m);
+}
+
+.product__title{
+    color: var(--additional-color);
+    padding: var(--padding-size-m);
+    font-size: var(--font-size-size-l);
+}
+
+.image-wrapper{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.product__image{
+   padding: var(--padding-size-m);
+    width: 25rem;
+    height: 15rem;
+    border-radius: 15%;
+}
+
+.product__description{
+    padding: var(--padding-size-m);
+    font-size: var(--font-size-size-s);
+}
+
+.table{
+    /* display: block; */
+    width: 10rem;
+    border: 2ps solid blue;
+
+}
+
+.table-col{
+    display: flex;
+    padding-left: var(--padding-size-m);
+    justify-content: space-between;
+    width: 20rem;
+    border: 2ps solid var(--additional-bg);
+}
+
+.table-row{
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    padding: var(--padding-size-s);
+    border: 1px solid blue;
+    font-size: var(--font-size-size-m);
+    color: var(--secondary-color);
+}
+
+.table-row:hover{
+    background: azure;
+}
+
+.footer{
+    background: var( --spare-bg);
+    padding: var(--padding-size-m);
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-size: var(--font-size-size-s);
+}
+
+
     
