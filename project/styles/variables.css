@@ -1,13 +1,42 @@
 :root {
-    --primary-color : ;
 
-    --primary-bg : ;
+    /* * Color-text */
 
-    --font-family-size : ;
+    --primary-color :white ;
+    --secondarн-color: black;
+    --additional-color: blue;
+    --spare-color: pink;
 
-    --font-size-size : ;
+    /* * Background */
 
-    --margin-size : ;
-    --padding-size : ;
+    --primary-bg :antiquewhite ;
+    --secondarн-bg:linear-gradient (pink,rgb(239, 82, 82));
+    --additional-bg: gray;
+    --spare-bg: pink;
+
+    /* * font-family-size */
+
+    
+
+    /* * font-size-size */
+
+    --font-size-size-xl: 3rem ;
+    --font-size-size-l : 2rem;
+    --font-size-size-m : 1rem;
+    --font-size-size-s : .7rem;
+
+    /* * margins */
+
+    --margin-size-xl : 3rem;
+    --margin-size-l : 2rem ;
+    --margin-size-m : 1rem ;
+    --margin-size-s : .8rem ;
+
+    /* * paddings */
+
+    --padding-size-xl : 3rem;
+    --padding-size-l : 2rem ;
+    --padding-size-m : 1rem ;
+    --padding-size-s : .8rem ;
 }
     
